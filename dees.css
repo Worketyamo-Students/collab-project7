@@ -141,12 +141,20 @@ nav{
     padding: 7rem 6rem;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 .seed h1{
     font-size: 5.5rem;
     font-weight: 800;
 }
 .seed button{
-    
+    border: 0.1rem  solid white;
+    border-radius: 0.8rem;
+    width: 10rem;
+    background-color: #0F172A;
+    height: 4rem;
+}
+.seed button a{
+    text-decoration: none;
+    color: white;
 }
