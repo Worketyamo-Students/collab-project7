@@ -24,6 +24,11 @@ nav{
     align-items: center;
     padding: 2rem 7.5rem;
 }
+.drip ul li a{
+    text-decoration: none;
+    color: #78350F;
+
+}
 /* the collers part */
 .railway{
     font-size: 3rem;
