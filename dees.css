@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+   width: 100vw;
+   height: 100vh;
+}
+     /* the nav part */
+/* the background-color of the section */
+#passage{
+    background-color: #ffffc5;
+}
+     /* the navigation part */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7.5rem;
+}
+/* the collers part */
+.railway{
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: bold;
+    color: #78350f;
+}
+.drip{
+    margin-left: 37rem;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 1.5rem;
+    color: #78350f;
+}
+.drip ul{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+.drip ul li{
+    list-style-type: none;
+}
+.drip a{
+    text-decoration: none;
+}
+  /* button */
+.btn{
+    border: none;
+    background-color: #ffffc5;
+}
+.btn a{
+    color: #78350f; 
+    text-decoration: none;
+}
+.btn-sn{
+    border: 0.2rem solid #78350f;
+    background-color: #ffffc5;
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+.btn-sn a{
+    color: #78350f; 
+    text-decoration: none;
+}
+
+/* second big div of the first section */
+.hatred{
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5rem 2rem;
+}
+.call-me h1{
+    font-size: 7rem;
+    font-weight: 800;
+    color: #0F172A;   
+}
+.call-me p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-style: normal;
+    padding-top: 1.7rem;
+}
