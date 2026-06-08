@@ -138,28 +138,53 @@ nav{
     padding-top: 1.8rem;
 }
 
-#shopping{
+#passenger{
     background-color: #0F172A;
 }
-.seed{
+.blocs{
+    display: flex;
+    padding: 8rem 7rem;
+    justify-content: space-between;
+}
+.blocs h2{
+   font-weight: 800;
+   font-size: 5rem;
+   font-style: bold;
+   color: white; 
+}
+.blocs button{
+    border: 0.3rem solid white;
+    border-radius: 0.4rem;
+    background-color: #0F172A;
+    width: 14rem;
+    height: 6rem;
+}
+.blocs button a{
+    text-decoration: none;
     color: white;
-    padding: 7rem 6rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.items{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 0rem 7rem;
 }
-.seed h1{
-    font-size: 5.5rem;
-    font-weight: 800;
+.item1{
+    border: 0.2rem solid;
+    border-radius: 0.3rem;
 }
-.seed button{
-    border: 0.1rem  solid white;
-    border-radius: 0.8rem;
-    width: 10rem;
-    background-color: #0F172A;
-    height: 4rem;
+.item1 img{
+    width: 25rem;
+    height: 15rem;
 }
-.seed button a{
-    text-decoration: none;
+.item1 h4{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.item1 p{
     color: white;
 }
