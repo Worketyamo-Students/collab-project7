@@ -137,3 +137,53 @@ nav{
     font-size: 1.4rem;
     padding-top: 1.8rem;
 }
+#passenger{
+    background-color: #0F172A;
+}
+.blocs{
+    display: flex;
+    padding: 8rem 7rem;
+    justify-content: space-between;
+}
+.blocs h2{
+   font-weight: 800;
+   font-size: 5rem;
+   font-style: bold;
+   color: white; 
+}
+.blocs button{
+    border: 0.3rem solid white;
+    border-radius: 0.4rem;
+    background-color: #0F172A;
+    width: 14rem;
+    height: 6rem;
+}
+.blocs button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 7rem;
+}
+.item1{
+    border: 0.2rem solid;
+    border-radius: 0.3rem;
+}
+.item1 img{
+    width: 25rem;
+    height: 15rem;
+}
+.item1 h4{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.item1 p{
+    color: white;
+}
